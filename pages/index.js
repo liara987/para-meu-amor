@@ -1,3 +1,7 @@
+import {Great_Vibes} from 'next/font/google';
+
+const great_vibes = Great_Vibes({subsets: ['latin'], weight: ['400']})
+
 function Home() {
     const containerStyle = {
         fontFamily: "'Great Vibes', cursive",
@@ -31,7 +35,7 @@ function Home() {
     };
 
     return (
-        <div style={containerStyle}>
+        <div className={great_vibes.className} style={containerStyle}>
             <div style={poemBoxStyle}>
                 <h1 style={titleStyle}>Para o meu amorzinho <img width={60} src="https://i.pinimg.com/originals/7b/df/06/7bdf0652d820489e07b41129ecc8b1e4.gif"/></h1>
                 
