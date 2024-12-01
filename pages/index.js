@@ -9,8 +9,7 @@ function Home() {
         height: '100vh',
     };
 
-    const poemBoxStyle = {
-        
+    const poemBoxStyle = {        
         maxWidth: '600px',
         padding: '20px',
         backgroundColor: '#fff',
@@ -20,14 +19,14 @@ function Home() {
 
     const titleStyle = {
         fontWeight: 600,
-        fontSize: '2.5rem',
+        fontSize: '1.8rem',
         marginBottom: '20px',
         marginTop: '0'
     };
 
     const poemTextStyle = {
         fontWeight: 400,
-        fontSize: '1.5rem',
+        fontSize: '1.4rem',
         lineHeight: '1.6',
     };
 
@@ -39,14 +38,15 @@ function Home() {
                 <p style={poemTextStyle}>
                     Ao teu lado o tempo voou, <br/>
                     Mas, no teu olhar, tudo se acalmou.
-                    <p>
-                    O mundo para, só existe você, <br/>
+                    <br/>
+                    <br/>
+                    O mundo para, só existe eu e você, <br/>
                     E cada segundo é mágico de viver.
-                    </p>
+                    <br/>
                 </p>
                 <p style={poemTextStyle}>
-                    Feliz eu sou por te ver sorrir ,<br/>
-                    Um amor eterno, dedico todo a ti.
+                    Feliz eu sou por te ver sorrir, <br/>
+                    Um amor eterno, dedico somente a ti.
                 </p>
             </div>
         </div>
