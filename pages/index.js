@@ -37,17 +37,21 @@ function Home() {
                 
                 <p style={poemTextStyle}>
                     Ao teu lado o tempo voou, <br/>
-                    Mas, no teu olhar, tudo se acalmou.
-                    <br/>
-                    <br/>
+                    Mas, no teu olhar, tudo se acalmou.                    
+                </p>
+
+                <p style={poemTextStyle}>
                     O mundo para, só existe eu e você, <br/>
                     E cada segundo é mágico de viver.
-                    <br/>
                 </p>
+                
                 <p style={poemTextStyle}>
                     Feliz eu sou por te ver sorrir, <br/>
                     Um amor eterno, dedico somente a ti.
                 </p>
+
+                <span>De: Liara, a apaixonada.</span> <br/>
+                <span>Para: Felipe, o amor da minha vida. ❤️</span>
             </div>
         </div>
     );
