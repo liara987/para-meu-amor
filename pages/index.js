@@ -58,7 +58,7 @@ function Home() {
                 </p>
 
                 <span style={psStyle}>De: Liara, a apaixonada.</span> <br/>
-                <span style={psStyle}>Para: Felipe, o amor da minha vida. ❤️</span>
+                <span style={psStyle}>Para: Felipe Augusto, o amor da minha vida. ❤️</span>
             </div>
         </div>
     );
