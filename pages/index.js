@@ -1,10 +1,9 @@
 import {Great_Vibes} from 'next/font/google';
 
-const great_vibes = Great_Vibes({subsets: ['latin'], weight: ['400']})
+const great_vibes = Great_Vibes({subsets: ['latin'], weight: ['400'], })
 
 function Home() {
-    const containerStyle = {
-        fontFamily: "'Great Vibes', cursive",
+    const containerStyle = {        
         backgroundColor: '#f9f9f9',
         color: '#333',
         display: 'flex',
@@ -23,16 +22,20 @@ function Home() {
 
     const titleStyle = {
         fontWeight: 600,
-        fontSize: '1.8rem',
+        fontSize: '2rem',
         marginBottom: '20px',
         marginTop: '0'
     };
 
     const poemTextStyle = {
         fontWeight: 400,
-        fontSize: '1.4rem',
+        fontSize: '1.5rem',
         lineHeight: '1.6',
     };
+
+    const psStyle = {
+        fontSize: '1rem',
+    }
 
     return (
         <div className={great_vibes.className} style={containerStyle}>
@@ -54,8 +57,8 @@ function Home() {
                     Um amor eterno, dedico somente a ti.
                 </p>
 
-                <span>De: Liara, a apaixonada.</span> <br/>
-                <span>Para: Felipe, o amor da minha vida. ❤️</span>
+                <span style={psStyle}>De: Liara, a apaixonada.</span> <br/>
+                <span style={psStyle}>Para: Felipe, o amor da minha vida. ❤️</span>
             </div>
         </div>
     );
